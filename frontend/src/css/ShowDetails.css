@@ -1,0 +1,107 @@
+/* ShowDetails.css */
+
+.show-details-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .details-wrapper {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: flex-start; /* Align content to the start vertically */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .show-details {
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .show-details-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .show-details-content {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .show-name {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .show-image {
+    width: 100%;
+    max-height: 700px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .booking-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .booking-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .previous-episode {
+    width: 60%; /* Adjust width as needed */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .previous-episode-header {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .previous-episode-content {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .episode-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Additional styles for better readability */
+  h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
